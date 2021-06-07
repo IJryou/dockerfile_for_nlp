@@ -24,3 +24,8 @@ docker ps -a
 # delete docker container
 docker rm $(docker ps -a -q) #전체 삭제
 docker rm [container id]
+```
+
+# 참고사항
+- workspace 내에 notebooks에 한국어 임베딩 github 내용이 포함됨
+- 필요에 따라 경로를 변경해서 사용할 것을 권장함
